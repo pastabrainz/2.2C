@@ -1,0 +1,98 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
+.dashboard {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #f39c12;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.progress {
+  width: 60%; /* Example progress */
+  height: 100%;
+  background-color: #2ecc71;
+  border-radius: 5px;
+}
+
+#set-goal {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+#set-goal:hover {
+  background-color: #2980b9;
+}
+
+.subjects {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.subjects h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.subjects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.subjects li {
+  padding: 0.5rem;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #34495e;
+  color: #fff;
+}
